@@ -1,13 +1,14 @@
 html,
 body {
   height: 100%;
-  margin: auto;
+  margin: 0;
   padding: 0;
   background-color: #fff;
 }
 
 img {
   max-height: 100%;
+  margin: auto;
   position: absolute;
   top: 0;
   bottom: 0;
