@@ -9,7 +9,7 @@ Get feeds: Ask me at: at [Instagram](https://instagram.com/artiphishle) :x
 Let's go, Swabbie! Use my cli now:
 
 ```bash
-npx ankh
+npx ankhorage
 ```
 
 ### 🔥 Tinderboxing
