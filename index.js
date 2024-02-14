@@ -1,10 +1,13 @@
 #!/usr/bin/env node
-const path = require("path");
-const { exec } = require('child_process');
-const scriptPath = path.join(__dirname, "scripts", "starter-expo-stack.sh");
+const path = require('path');
+const { spawn } = require('child_process');
+const scriptPath = path.join(__dirname, 'scripts', 'starter-expo-stack.sh');
+const child = spawn(scriptPath, [], { stdio: 'inherit' });
 
-exec(`bash ${scriptPath}`, (error, stdout, stderr) => {
-  if (error) return console.error(`Error: ${error.message}`);
-  if (stderr) return console.error(`Error: ${stderr}`);
-  console.log(stdout);
+child.on('exit', (code, signal) => {
+  if (code !== 0) {
+    console.error(`Script execution failed with code ${code}`);
+  } else {
+    console.log('Script executed successfully');
+  }
 });
