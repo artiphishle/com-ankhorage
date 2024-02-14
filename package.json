@@ -1,12 +1,13 @@
 {
   "bin": {
-    "ankhorage": "./index.js"
+    "ankhorage": "npm run init:expo"
   },
   "name": "ankhorage",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Hi! I'm Arti Phishle and I'm building a all-in-one solution for your next project.",
   "main": "index.js",
   "scripts": {
+    "init:expo": "./scripts/starter-expo-stack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
