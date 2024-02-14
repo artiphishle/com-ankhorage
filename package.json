@@ -1,0 +1,26 @@
+{
+  "bin": {
+    "ankhorage": "sh scripts/starter-expo-stack.sh"
+  },
+  "name": "ankhorage",
+  "version": "1.0.1",
+  "description": "Hi! I'm Arti Phishle and I'm building a all-in-one solution for your next project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artiphishle/com-ankhorage.git"
+  },
+  "keywords": [
+    "Ankhorage",
+    "Ankh"
+  ],
+  "author": "artiphishle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artiphishle/com-ankhorage/issues"
+  },
+  "homepage": "https://github.com/artiphishle/com-ankhorage#readme"
+}

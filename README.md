@@ -23,7 +23,7 @@ Scooping from human ingenuity! Put yourself into a tinderbox to spark an idea. A
 ankh docs
 ```
 
-### 👨‍💻 Implementation
+### 👨💻 Implementation
 
 One codebase, multiple platforms. Ankhorage is a fullstack solution for your next project.
 
