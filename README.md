@@ -101,6 +101,10 @@ Content to follow.
 
 ## Changelog
 
+## 2024/02/14
+
+- Add `npx ankhorage` script
+
 ## 2024/02/12
 
 - Create repository
