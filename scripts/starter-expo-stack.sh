@@ -33,7 +33,7 @@ cleanUp && printSuccess "Clean up"
 
 # Download package
 # npx create-expo-stack@latest starter-expo-stack-gen --expo-router --drawer+tabs --nativewind --supabase --yarn &>/dev/null
-git clone --depth 1 --branch 'v1.0.0' git@github.com:artiphishle/starter-expo-stack $pkg &>/dev/null && printSuccess "Package 'starter-expo-stack' downloaded"
+git clone --depth 1 --branch 'v1.0.1' git@github.com:artiphishle/starter-expo-stack $pkg &>/dev/null && printSuccess "Package 'starter-expo-stack' downloaded"
 
 # Install package
 cd starter-expo-stack && yarn &>/dev/null && printSuccess "Package 'starter-expo-stack' installed"
