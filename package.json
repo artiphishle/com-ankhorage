@@ -1,9 +1,9 @@
 {
   "bin": {
-    "ankhorage": "sh scripts/starter-expo-stack.sh"
+    "ankhorage": "./index.js"
   },
   "name": "ankhorage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hi! I'm Arti Phishle and I'm building a all-in-one solution for your next project.",
   "main": "index.js",
   "scripts": {
