@@ -3,11 +3,11 @@
     "ankhorage": "npm run init:expo"
   },
   "name": "ankhorage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Hi! I'm Arti Phishle and I'm building a all-in-one solution for your next project.",
   "main": "index.js",
   "scripts": {
-    "init:expo": "./scripts/starter-expo-stack",
+    "init:expo": "/usr/bin/bash ./scripts/starter-expo-stack.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
