@@ -4,9 +4,9 @@
   },
   "engines": {
     "node": "^20.11.0",
-    "npm": "please-use-yarn",
-    "pnpm": "please-use-yarn",
-    "yarn": "^1.22.21"
+    "pnpm": "^8.1.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
   },
   "name": "ankhorage",
   "version": "1.1.9",
