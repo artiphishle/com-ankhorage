@@ -1,16 +1,13 @@
 {
-  "bin": {
-    "ankhorage": "./index.js"
-  },
   "engines": {
     "node": "^20.11.0",
     "pnpm": "^8.15.3",
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm"
   },
-  "name": "ankhorage",
+  "name": "com-ankhorage",
   "version": "1.1.9",
-  "description": "Hi! I'm Arti Phishle and I'm building a all-in-one solution for your next project.",
+  "description": "ankhorage.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
