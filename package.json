@@ -10,6 +10,8 @@
   "description": "ankhorage.com",
   "main": "index.js",
   "scripts": {
+    "prebuild": "cd terraform/lambda && zip -r fenBySan.zip fenBySan.py handler.py",
+    "build": "terraform init && terraform apply",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
