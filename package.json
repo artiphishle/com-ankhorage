@@ -6,11 +6,11 @@
     "yarn": "please-use-pnpm"
   },
   "name": "com-ankhorage",
-  "version": "1.1.9",
+  "version": "1.2",
   "description": "ankhorage.com",
   "main": "index.js",
   "scripts": {
-    "prebuild": "cd terraform/lambda && zip -r fenBySan.zip fenBySan.py handler.py",
+    "prebuild": "cd terraform/lambda && pip install -r requirements.txt -t . && zip -r fenBySan.zip fenBySan.py handler.py",
     "build": "terraform init && terraform apply",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +30,6 @@
   "homepage": "https://github.com/artiphishle/com-ankhorage#readme",
   "devDependencies": {
     "terraform": "latest",
-    "typescript": "^5.3.3"
+    "typescript": "latest"
   }
 }
